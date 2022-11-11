@@ -2219,7 +2219,8 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			padding: 0;	
+			padding: 0;
+			background-color: #E8EEF4;	
 		}
 
 		.wrapper.style2 {
