@@ -1997,6 +1997,16 @@ input, select, textarea {
 			display: none;
 		}
 
+		.team{
+			display: block;
+			width: 220px;
+			height: 220px;
+			margin-right: auto;
+			margin-left: auto;
+			border-radius: 50%;
+			background-position: 0px 0px;
+			background-size: 1024px;
+		}
 /* List */
 
 	ol {
@@ -2209,7 +2219,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			padding: 0;
+			padding: 0;	
 		}
 
 		.wrapper.style2 {
@@ -2620,6 +2630,8 @@ input, select, textarea {
 	body.index #main {
 		padding-top: 5em;
 	}
+
+	
 
 /* CTA */
 
