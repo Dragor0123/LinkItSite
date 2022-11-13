@@ -161,8 +161,12 @@
 									<ul class="buttons">
 										<li><a id="btn_proto" href="https://opportunity-escape-968319.framer.app/" 
 											class="button">Med-fi Prototype</a></li>
-										<li><button id="btn_readme" class="button" type="submit"> Read Me </a></li>
-										<li><button id="btn_present" class="button" type="submit"> Presentation</a></li>
+										<li><a id="btn_readme" href="./downloadable/README.pdf" 
+											class="button" target="_blank"> 
+											Read Me </a></li>
+										<li><a id="btn_present" href="./downloadable/Med-fi_presentation.pdf" class="button" 
+											target="_blank"> 
+											Presentation</a></li>
 									</ul>
 								</footer>
 								
@@ -215,29 +219,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			
-			<script>
-				let downloadbuttons = {
-					BTN_README: document.querySelector("body #page-wrapper #main section .row #tiltbox_section #btn_readme"),
-					BTN_PROTO: document.querySelector("body #page-wrapper #main section .row #tiltbox_section #btn_proto"),
-					BTN_PRESENT: document.querySelector("body #page-wrapper #main section .row #tiltbox_section #btn_present"),
-				};
-
-				downloadbuttons['BTN_README'].addEventListener("click", ()=>{
-					var url = "./downloadable/README.pdf"; // readme 내용 좀 수정해서 pdf로 바꿔야함.
-					location.href = url;
-				});
-
-				downloadbuttons['BTN_PROTO'].addEventListener("click", ()=>{
-					// var url = "./downloadable/testdownload.pdf";
-					// location.href = url;
-				});
-
-				downloadbuttons['BTN_PRESENT'].addEventListener("click", ()=>{
-					var url = "./downloadable/Med-fi_presentation.pdf";
-					location.href = url;
-				});
-			</script>
-			
 	</body>
 </html>
