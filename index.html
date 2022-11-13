@@ -41,7 +41,7 @@
 						<header>
 							<h2>Link-it</h2>
 						</header>
-						<p>여기에 아마도 우리 앱의 가치를 적으면 좋지 않을까?
+						<p>(Link-it의 가치에 대한 설명 문구)
 						<br /> <br/>
 						22' Human-Computer Interaction<br/>
 						University of Seoul
@@ -70,7 +70,8 @@
 					<!-- One -->
 						<section class="wrapper style1 container special">
 							<h2 id="team_section"><strong> TEAM CHCI</strong> <br /></h2>
-							<div class="row">
+							<div> (팀원에 대한 내용) </div>
+							<!-- <div class="row">
 								<div class="col-4 col-12-narrower">
 									<section>
 										<img class="team" src="images/face_test.png">
@@ -103,7 +104,7 @@
 									</section>
 
 								</div>
-							</div>
+							</div> -->
 						</section>
 
 					<!-- Two -->
@@ -152,16 +153,16 @@
 						<div class="row gtr-50">
 							<div id="tiltbox_section">
 								<header>
-									<h2><strong>Med-fi Prototype</strong> <br/> 적을 것이 필요한가?</h2>
+									<h2><strong>Med-fi Prototype</strong> <br/> </h2>
 								</header>
-								<p> ............ </p>
+								<!-- <p> </p> -->
 								<!-- (여기에 미드파이 바로 실행할 수 있는 화면 만들자) -->
 								<footer>
 									<ul class="buttons">
-										<li><button id="btn_readme" class="button" type="submit">Read Me </a></li>
-										<li><button id="btn_proto" class="button" type="submit">Download Prototype</a></li>
-										<li><button id="btn_present" class="button" type="submit">Download Presentation</a></li>
-										<!-- <li><a href="#" class="button">Download Presentation</a></li> -->
+										<li><a id="btn_proto" href="https://opportunity-escape-968319.framer.app/" 
+											class="button">Med-fi Prototype</a></li>
+										<li><button id="btn_readme" class="button" type="submit"> Read Me </a></li>
+										<li><button id="btn_present" class="button" type="submit"> Presentation</a></li>
 									</ul>
 								</footer>
 								
@@ -223,17 +224,17 @@
 				};
 
 				downloadbuttons['BTN_README'].addEventListener("click", ()=>{
-					var url = "./downloadable/README.txt"; // readme 내용 좀 수정해서 pdf로 바꿔야함.
+					var url = "./downloadable/README.pdf"; // readme 내용 좀 수정해서 pdf로 바꿔야함.
 					location.href = url;
 				});
 
 				downloadbuttons['BTN_PROTO'].addEventListener("click", ()=>{
-					var url = "./downloadable/testdownload.pdf";
-					location.href = url;
+					// var url = "./downloadable/testdownload.pdf";
+					// location.href = url;
 				});
 
 				downloadbuttons['BTN_PRESENT'].addEventListener("click", ()=>{
-					var url = "./downloadable/testdownload.pdf";
+					var url = "./downloadable/Med-fi_presentation.pdf";
 					location.href = url;
 				});
 			</script>
