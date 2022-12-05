@@ -2221,7 +2221,8 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			padding: 0;
-			background-color: #E8EEF4;	
+			background-color: hsl(235, 25%, 60%);
+			color: white;
 		}
 
 		.wrapper.style2 {
@@ -2272,7 +2273,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #cbd196;
+			background-color: hsl(326, 67%, 34%);
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
