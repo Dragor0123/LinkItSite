@@ -1872,7 +1872,7 @@ input, select, textarea {
 			}
 
 		.image.featured {
-			display: block;
+			/* display: block; */
 			margin: 0 0 2em 0;
 		}
 
